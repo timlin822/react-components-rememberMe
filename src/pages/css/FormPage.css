@@ -1,0 +1,109 @@
+.form{
+    width: 50%;
+    margin: 0px auto;
+    padding: 20px 50px;
+    background-color: #f1f1f1;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
+}
+.form .form-title{
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #003366;
+    margin-bottom: 20px;
+}
+.form .input-group{
+    color: #151515;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.form .input-group .input-group-icon{
+    height: 60px;
+    line-height: 60px;
+}
+.form .input-group .label-icon{
+    background-color: #003366;
+	padding: 0px 20px;
+}
+.form .input-group .eye-icon{
+    background-color: #fff;
+    padding: 0px 15px;
+}
+.form .label-icon-cursor{
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+}
+.form .eye-icon-cursor{
+    cursor: pointer;
+    font-size: 24px;
+    color: #151515;
+}
+.form .input-group .input[type=text],
+.form .input-group .input[type=email],
+.form .input-group .input[type=password]{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 26px;
+    font-weight: 500;
+    color: #151515;
+    padding-left: 10px;
+}
+.form ::placeholder{
+    font-size: 18px;
+    font-weight: 300;
+    color: #555;
+}
+.form .input-group-flex{
+    justify-content: space-between;
+}
+.form .input-group .input[type=checkbox]{
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+}
+.form .input-group .input[type=checkbox]+.rememberMe{
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.form .input-group .forget-password-link{
+    font-size: 22px;
+    font-weight: 400;
+    color: #003366;
+}
+.form .btn{
+    cursor: pointer;
+    width: 100%;
+	font-size: 24px;
+    font-weight: 500;
+	letter-spacing: 2px;
+    color: #fff;
+    background-color: #003366;
+    padding: 8px 0px;
+    margin-bottom: 20px;
+    transition: background-color 0.5s ease;
+}
+.form .btn:hover{
+    background-color: #225588;
+}
+.form .text{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #151515;
+}
+.form .router-link{
+    color: #003366;
+    transition: color 0.5s ease;
+}
+.form .router-link:hover{
+    color: #225588;
+}
